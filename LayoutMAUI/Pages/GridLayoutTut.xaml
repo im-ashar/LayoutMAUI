@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="LayoutMAUI.Pages.GridLayoutTut"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="GridLayoutTut"
+    BackgroundColor="White">
+    <Grid ColumnSpacing="10" RowSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <!--  Row 0  -->
+        <Label
+            Grid.Row="0"
+            Grid.Column="0"
+            BackgroundColor="Red"
+            Text="Row 0 And Col 0" />
+        <Label
+            Grid.Row="0"
+            Grid.Column="1"
+            BackgroundColor="Red"
+            Text="Row 0 And Col 1" />
+        <Label
+            Grid.Row="0"
+            Grid.Column="2"
+            BackgroundColor="Red"
+            Text="Row 0 And Col 2" />
+        <!--  Row 1  -->
+        <Label
+            Grid.Row="1"
+            Grid.Column="0"
+            BackgroundColor="Red"
+            Text="Row 1 And Col 0" />
+        <Label
+            Grid.Row="1"
+            Grid.Column="1"
+            BackgroundColor="Red"
+            Text="Row 1 And Col 1" />
+        <Label
+            Grid.Row="1"
+            Grid.Column="2"
+            BackgroundColor="Red"
+            Text="Row 1 And Col 2" />
+        <!--  Row 2  -->
+        <Label
+            Grid.Row="2"
+            Grid.Column="0"
+            BackgroundColor="Red"
+            Text="Row 2 And Col 0" />
+        <Label
+            Grid.Row="2"
+            Grid.Column="1"
+            BackgroundColor="Red"
+            Text="Row 2 And Col 1" />
+        <Label
+            Grid.Row="2"
+            Grid.Column="2"
+            BackgroundColor="Red"
+            Text="Row 2 And Col 2" />
+    </Grid>
+</ContentPage>

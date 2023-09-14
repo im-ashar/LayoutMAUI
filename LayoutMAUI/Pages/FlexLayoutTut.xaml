@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="LayoutMAUI.Pages.FlexLayoutTut"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="FlexLayoutTut">
+    <FlexLayout AlignItems="Center" Direction="Column">
+        <Button Text="Button 1" />
+        <Button Text="Button 2" />
+    </FlexLayout>
+</ContentPage>
